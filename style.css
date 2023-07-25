@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #535971;
+}
+
+.page {
+    width: 750px;
+
+    margin: auto;
+}
+
+header {
+    width: 319px;
+    padding-top: 140px;
+    padding-bottom: 58px;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    font-size: 46px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form-body {
+    width: 630px;
+    height: 845px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+}
+
+form {
+    padding: 64px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 16px;
+    color: #535971;
+}
+
+#coluna {
+    display: flex;
+}
+
+input {
+    border: solid 1px #E6E6F0;
+    border-radius: 8px;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;;
+    color: #C1BCCC;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.input-wrapper input {
+    display: block;
+    width: 300px;
+    height: 56px;
+    margin-bottom: 19px;
+}
+.input-wrapper label {
+    color: #4E4958;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-wrapper2 label {
+    color: #4E4958;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 22px;
+}
+
+.input-wrapper2 label {
+    color: #4E4958;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-wrapper2 input {
+    display: block;
+    width: 300px;
+    height: 56px;
+    margin-left: 22px;
+}
+
+.input-wrapper3 label {
+    font-family: 'Poppins', sans-serif;
+    color: #4E4958;
+}
+
+.input-wrapper3 input {
+    display: block;
+    width: 624px;
+    height: 56px;
+}
+
+#legend2 {
+    margin-top: 30px;
+}
+
+#legend1 {
+    margin-top: 30px;
+    display: flex;
+}
+
+#input-1 {
+    width: 300px;
+    height: 56px;
+    margin-right: 22px;
+}
+
+#legend3 {
+    font-size: 16px;
+}
+
+#legend4 {
+    margin-top: 36px;
+}
+
+#input-2 {
+    width: 140px;
+    height: 56px;
+    margin-left: 10px;
+}
+
+#label2 {
+    margin-left: 10px;
+}
+
+#form-button {
+    background-color: #535971;
+    width: 758px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #FF5374;
+    color: #fff;
+
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    border: none;
+    width: 608px;
+    height: 56px;
+
+    border-radius: 50px;
+}
